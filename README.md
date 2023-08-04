@@ -1,8 +1,8 @@
 # Voice ➡️ Article
-A telegram bot that transform audio recording of you rambling about a random subject into complete blog articles.
+A telegram bot that transform an audio recording of you rambling about a random subject into a complete blog articles.
 
 ## 🔥 Try it
-You can just send audio recordings of you speaking about a subject that interest you to to [@Voice2ArticleBot](https://t.me/voice2articlebot)
+You can just send audio recordings of you speaking about a subject that interests you to to [@Voice2ArticleBot](https://t.me/voice2articlebot)
 
 ## 🚀 How to install your own bot
 
@@ -25,7 +25,6 @@ export TELEGRAM_TOKEN=<your_telegram_bot_token>
 ```
 
 ### 🏭 Getting Your PolyFact Token
-
 Voice2Article uses PolyFact to generate AI responses. PolyFact is a managed backend, it abstract from the client all the hassle of managing different APIs, models, databases, etc...
 
 Follow these steps to get your PolyFact token:
