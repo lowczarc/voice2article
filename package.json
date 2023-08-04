@@ -5,12 +5,10 @@
     "license": "MIT",
     "bin": "build/tool",
     "dependencies": {
-        "@types/node-gzip": "^1.1.0",
         "@types/node-telegram-bot-api": "^0.61.6",
         "fp-ts": "^2.16.0",
         "io-ts": "^2.2.20",
         "node-fetch": "^2.6.12",
-        "node-gzip": "^1.1.2",
         "node-pandoc": "^0.3.0",
         "node-telegram-bot-api": "^0.61.0",
         "polyfact": "^0.1.24",

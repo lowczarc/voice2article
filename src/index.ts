@@ -1,9 +1,7 @@
 import { PassThrough, Readable } from "stream";
 import TelegramBot from "node-telegram-bot-api";
 import fetch from "node-fetch";
-import { readFileSync } from "fs";
-import {gzip} from "node-gzip";
-import { generate, transcribe, Chat, Memory, kv } from "polyfact";
+import { generate, transcribe } from "polyfact";
 
 const pandoc = require("node-pandoc");
  
@@ -84,4 +82,6 @@ function slugify(s: string): string {
           bot.sendMessage(chatId, "Oops, something wrong happened 😵‍💫");
       }
     });
+
+    console.log("Telegram bot started 🚀");
 })()
