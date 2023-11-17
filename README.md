@@ -14,30 +14,7 @@ cd voice2article
 yarn
 ```
 
-You will need a `TELEGRAM_TOKEN` and a `POLYFACT_TOKEN`.
-
-### 🤖 Getting A Telegram bot Token
-The TELEGRAM TOKEN can be retrieved by creating a bot with [@BotFather](https://t.me/BotFather)
-
-You then need to export the token in your environment:
-```bash
-export TELEGRAM_TOKEN=<your_telegram_bot_token>
-```
-
-### 🏭 Getting Your PolyFact Token
-Voice2Article uses PolyFact to generate AI responses. PolyFact is a managed backend, it abstract from the client all the hassle of managing different APIs, models, databases, etc...
-
-Follow these steps to get your PolyFact token:
-
-1. Go to [app.polyfact.com](https://app.polyfact.com).
-2. Connect with GitHub.
-3. Copy the token.
-
-Then, you need to export the PolyFact token in your environment:
-
-```bash
-export  POLYFACT_TOKEN=<your_polyfact_token>
-```
+You will need a `TELEGRAM_TOKEN`, a `POLYFIRE_PROJECT_ID` and a `POLYFIRE_TOKEN` (custom token signed with your private key, see the [polyfire docs](https://docs.polyfire.com/docs/login-with-your-own-auth-system))
 
 ### ⭐ Start your bot
 

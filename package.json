@@ -11,7 +11,7 @@
         "node-fetch": "^2.6.12",
         "node-pandoc": "^0.3.0",
         "node-telegram-bot-api": "^0.61.0",
-        "polyfact": "^0.1.24",
+        "polyfire-js": "^0.2.19",
         "ts-node": "^10.9.1"
     },
     "devDependencies": {
